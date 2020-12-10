@@ -1,0 +1,44 @@
+C:\Users\Bryan Lazo\source\repos\Lab_Jenner_2.0\Formularios\bin\Debug\Formularios.exe.config
+C:\Users\Bryan Lazo\source\repos\Lab_Jenner_2.0\Formularios\bin\Debug\Formularios.exe
+C:\Users\Bryan Lazo\source\repos\Lab_Jenner_2.0\Formularios\bin\Debug\Formularios.pdb
+C:\Users\Bryan Lazo\source\repos\Lab_Jenner_2.0\Formularios\bin\Debug\Clases.exe
+C:\Users\Bryan Lazo\source\repos\Lab_Jenner_2.0\Formularios\bin\Debug\Clases.pdb
+C:\Users\Bryan Lazo\source\repos\Lab_Jenner_2.0\Formularios\bin\Debug\Clases.exe.config
+C:\Users\Bryan Lazo\source\repos\Lab_Jenner_2.0\Formularios\obj\Debug\Formularios.csprojAssemblyReference.cache
+C:\Users\Bryan Lazo\source\repos\Lab_Jenner_2.0\Formularios\obj\Debug\Formularios.Properties.Resources.resources
+C:\Users\Bryan Lazo\source\repos\Lab_Jenner_2.0\Formularios\obj\Debug\Formularios.csproj.GenerateResource.cache
+C:\Users\Bryan Lazo\source\repos\Lab_Jenner_2.0\Formularios\obj\Debug\Formularios.csproj.CoreCompileInputs.cache
+C:\Users\Bryan Lazo\source\repos\Lab_Jenner_2.0\Formularios\obj\Debug\Formularios.csproj.CopyComplete
+C:\Users\Bryan Lazo\source\repos\Lab_Jenner_2.0\Formularios\obj\Debug\Formularios.exe
+C:\Users\Bryan Lazo\source\repos\Lab_Jenner_2.0\Formularios\obj\Debug\Formularios.pdb
+C:\Users\Bryan Lazo\source\repos\Lab_Jenner_2.0\Formularios\obj\Debug\Formularios.Menu.resources
+C:\Users\Bryan Lazo\source\repos\Lab_Jenner_2.0\Formularios\obj\Debug\Formularios.Form1.resources
+C:\Users\Bryan Lazo\source\repos\Lab_Jenner_2.0\Formularios\obj\Debug\Formularios.Doctores.resources
+C:\Users\Bryan Lazo\source\repos\Lab_Jenner_2.0\Formularios\obj\Debug\Formularios.Ingresar_Doctor.resources
+C:\Users\Bryan Lazo\source\repos\Lab_Jenner_2.0\Formularios\obj\Debug\Formularios.Editar_Doctor.resources
+C:\Users\Bryan Lazo\source\repos\Lab_Jenner_2.0\Formularios\obj\Debug\Formularios.Explorar_Tablas.resources
+C:\Users\Bryan Lazo\source\repos\Lab_Jenner_2.0\Formularios\obj\Debug\Formularios.Elegir_Examen.resources
+C:\Users\Bryan Lazo\source\repos\Lab_Jenner_2.0\Formularios\obj\Debug\Formularios.Facturacion.resources
+C:\Users\Bryan Lazo\source\repos\Lab_Jenner_2.0\Formularios\obj\Debug\Formularios.Resultados.resources
+C:\Users\ALEJANDRO\Desktop\Lab_Jenner_2.0\Formularios\bin\Debug\Formularios.exe.config
+C:\Users\ALEJANDRO\Desktop\Lab_Jenner_2.0\Formularios\bin\Debug\Formularios.exe
+C:\Users\ALEJANDRO\Desktop\Lab_Jenner_2.0\Formularios\bin\Debug\Formularios.pdb
+C:\Users\ALEJANDRO\Desktop\Lab_Jenner_2.0\Formularios\bin\Debug\Clases.exe
+C:\Users\ALEJANDRO\Desktop\Lab_Jenner_2.0\Formularios\bin\Debug\Clases.pdb
+C:\Users\ALEJANDRO\Desktop\Lab_Jenner_2.0\Formularios\bin\Debug\Clases.exe.config
+C:\Users\ALEJANDRO\Desktop\Lab_Jenner_2.0\Formularios\obj\Debug\Formularios.csprojAssemblyReference.cache
+C:\Users\ALEJANDRO\Desktop\Lab_Jenner_2.0\Formularios\obj\Debug\Formularios.Doctores.resources
+C:\Users\ALEJANDRO\Desktop\Lab_Jenner_2.0\Formularios\obj\Debug\Formularios.Editar_Doctor.resources
+C:\Users\ALEJANDRO\Desktop\Lab_Jenner_2.0\Formularios\obj\Debug\Formularios.Elegir_Examen.resources
+C:\Users\ALEJANDRO\Desktop\Lab_Jenner_2.0\Formularios\obj\Debug\Formularios.Explorar_Tablas.resources
+C:\Users\ALEJANDRO\Desktop\Lab_Jenner_2.0\Formularios\obj\Debug\Formularios.Facturacion.resources
+C:\Users\ALEJANDRO\Desktop\Lab_Jenner_2.0\Formularios\obj\Debug\Formularios.Form1.resources
+C:\Users\ALEJANDRO\Desktop\Lab_Jenner_2.0\Formularios\obj\Debug\Formularios.Ingresar_Doctor.resources
+C:\Users\ALEJANDRO\Desktop\Lab_Jenner_2.0\Formularios\obj\Debug\Formularios.Menu.resources
+C:\Users\ALEJANDRO\Desktop\Lab_Jenner_2.0\Formularios\obj\Debug\Formularios.Properties.Resources.resources
+C:\Users\ALEJANDRO\Desktop\Lab_Jenner_2.0\Formularios\obj\Debug\Formularios.Resultados.resources
+C:\Users\ALEJANDRO\Desktop\Lab_Jenner_2.0\Formularios\obj\Debug\Formularios.csproj.GenerateResource.cache
+C:\Users\ALEJANDRO\Desktop\Lab_Jenner_2.0\Formularios\obj\Debug\Formularios.csproj.CoreCompileInputs.cache
+C:\Users\ALEJANDRO\Desktop\Lab_Jenner_2.0\Formularios\obj\Debug\Formularios.csproj.CopyComplete
+C:\Users\ALEJANDRO\Desktop\Lab_Jenner_2.0\Formularios\obj\Debug\Formularios.exe
+C:\Users\ALEJANDRO\Desktop\Lab_Jenner_2.0\Formularios\obj\Debug\Formularios.pdb
