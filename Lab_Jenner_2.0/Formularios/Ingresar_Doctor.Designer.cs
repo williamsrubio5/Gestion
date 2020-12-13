@@ -44,7 +44,6 @@
             this.label5 = new System.Windows.Forms.Label();
             this.txtclinica = new System.Windows.Forms.TextBox();
             this.cbsexo = new System.Windows.Forms.ComboBox();
-            this.fechanac = new System.Windows.Forms.DateTimePicker();
             this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
@@ -62,6 +61,7 @@
             this.txtusuario = new System.Windows.Forms.TextBox();
             this.errorProvider1 = new System.Windows.Forms.ErrorProvider(this.components);
             this.txtidentidad = new System.Windows.Forms.MaskedTextBox();
+            this.fechanac = new System.Windows.Forms.DateTimePicker();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).BeginInit();
             this.SuspendLayout();
@@ -238,16 +238,6 @@
             this.cbsexo.Tag = "";
             this.cbsexo.Visible = false;
             this.cbsexo.MouseEnter += new System.EventHandler(this.cbsexo_MouseEnter);
-            // 
-            // fechanac
-            // 
-            this.fechanac.Location = new System.Drawing.Point(423, 180);
-            this.fechanac.Margin = new System.Windows.Forms.Padding(2);
-            this.fechanac.Name = "fechanac";
-            this.fechanac.Size = new System.Drawing.Size(151, 20);
-            this.fechanac.TabIndex = 7;
-            this.fechanac.Tag = "";
-            this.fechanac.Visible = false;
             // 
             // label6
             // 
@@ -440,6 +430,19 @@
             this.txtidentidad.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.txtidentidad.MaskInputRejected += new System.Windows.Forms.MaskInputRejectedEventHandler(this.txtidentidad_MaskInputRejected);
             // 
+            // fechanac
+            // 
+            this.fechanac.Location = new System.Drawing.Point(423, 180);
+            this.fechanac.Margin = new System.Windows.Forms.Padding(2);
+            this.fechanac.MaxDate = new System.DateTime(2020, 12, 25, 23, 59, 59, 0);
+            this.fechanac.MinDate = new System.DateTime(1950, 1, 1, 0, 0, 0, 0);
+            this.fechanac.Name = "fechanac";
+            this.fechanac.Size = new System.Drawing.Size(151, 20);
+            this.fechanac.TabIndex = 7;
+            this.fechanac.Tag = "";
+            this.fechanac.Value = new System.DateTime(2020, 12, 13, 1, 57, 5, 0);
+            this.fechanac.Visible = false;
+            // 
             // Ingresar_Doctor
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -505,7 +508,6 @@
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.TextBox txtclinica;
         private System.Windows.Forms.ComboBox cbsexo;
-        private System.Windows.Forms.DateTimePicker fechanac;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label8;
@@ -523,5 +525,6 @@
         private System.Windows.Forms.TextBox txtusuario;
         private System.Windows.Forms.ErrorProvider errorProvider1;
         public System.Windows.Forms.MaskedTextBox txtidentidad;
+        private System.Windows.Forms.DateTimePicker fechanac;
     }
 }

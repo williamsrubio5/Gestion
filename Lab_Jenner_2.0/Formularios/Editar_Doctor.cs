@@ -308,5 +308,14 @@ namespace Formularios
             ex.Show();
             this.Hide();
         }
+
+        private void txtidentidad_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if ((e.KeyChar >= 0 && e.KeyChar <= 47) || (e.KeyChar >= 58 && e.KeyChar <= 255))
+            {
+                MessageBox.Show("Identidad no se puede editar", "Informacion", MessageBoxButtons.OK, /*Tipo de imagen que tendra el mensaje*/MessageBoxIcon.Information);
+                e.Handled = true;
+            }
+        }
     }
 }

@@ -294,7 +294,7 @@ namespace Formularios
 
         private void txttelefono_KeyPress(object sender, KeyPressEventArgs e)
         {
-            if ((e.KeyChar >= 0 && e.KeyChar <= 47) || (e.KeyChar >= 58 && e.KeyChar <= 255))
+            if ((e.KeyChar >= 8 && e.KeyChar <= 47) || (e.KeyChar >= 58 && e.KeyChar <= 255))
             {
                 MessageBox.Show("Solo se aceptan numeros", "Informacion", MessageBoxButtons.OK, /*Tipo de imagen que tendra el mensaje*/MessageBoxIcon.Information);
                 e.Handled = true;

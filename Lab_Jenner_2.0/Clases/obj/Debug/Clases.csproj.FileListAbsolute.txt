@@ -16,3 +16,12 @@ C:\Users\ALEJANDRO\Desktop\Lab_Jenner_2.0\Clases\obj\Debug\Clases.csproj.Generat
 C:\Users\ALEJANDRO\Desktop\Lab_Jenner_2.0\Clases\obj\Debug\Clases.csproj.CoreCompileInputs.cache
 C:\Users\ALEJANDRO\Desktop\Lab_Jenner_2.0\Clases\obj\Debug\Clases.exe
 C:\Users\ALEJANDRO\Desktop\Lab_Jenner_2.0\Clases\obj\Debug\Clases.pdb
+C:\Users\ALEJANDRO\Desktop\Gestion\Lab_Jenner_2.0\Clases\bin\Debug\Clases.exe.config
+C:\Users\ALEJANDRO\Desktop\Gestion\Lab_Jenner_2.0\Clases\bin\Debug\Clases.exe
+C:\Users\ALEJANDRO\Desktop\Gestion\Lab_Jenner_2.0\Clases\bin\Debug\Clases.pdb
+C:\Users\ALEJANDRO\Desktop\Gestion\Lab_Jenner_2.0\Clases\obj\Debug\Clases.csprojAssemblyReference.cache
+C:\Users\ALEJANDRO\Desktop\Gestion\Lab_Jenner_2.0\Clases\obj\Debug\Clases.Properties.Resources.resources
+C:\Users\ALEJANDRO\Desktop\Gestion\Lab_Jenner_2.0\Clases\obj\Debug\Clases.csproj.GenerateResource.cache
+C:\Users\ALEJANDRO\Desktop\Gestion\Lab_Jenner_2.0\Clases\obj\Debug\Clases.csproj.CoreCompileInputs.cache
+C:\Users\ALEJANDRO\Desktop\Gestion\Lab_Jenner_2.0\Clases\obj\Debug\Clases.exe
+C:\Users\ALEJANDRO\Desktop\Gestion\Lab_Jenner_2.0\Clases\obj\Debug\Clases.pdb

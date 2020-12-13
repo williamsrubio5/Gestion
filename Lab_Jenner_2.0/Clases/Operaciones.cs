@@ -82,7 +82,7 @@ namespace Clases
         //Esta funcion sirve para Editar un doctor
         public void EditarDoctor(String identidad, String nombre, int telefono, String email, String clinica)
         {
-            SqlCommand cmd = new SqlCommand(string.Format("execute [dbo].[ActualizarMedico] @identidadMed = '{0}', @NombreMe = '{1}', @TelefonoMe = {2}, @EmailMe = '{3}', @NombreClinicaMe = '{4}'", identidad, nombre, telefono, email, clinica), cn);
+            SqlCommand cmd = new SqlCommand(string.Format("execute [dbo].[ActualizarMedico] @identidadMed = '{0}', @NombreMe = '{1}', @TelefonoMe = {2}, @EmailMe = '{3}', @NombreClinicaMe = '{4}',@EstadoMe=1", identidad, nombre, telefono, email, clinica), cn);
             cmd.ExecuteNonQuery();
             MessageBox.Show("Se Edito Correctamente", "Mensaje", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
@@ -126,7 +126,7 @@ namespace Clases
             }
             else
             {
-                SqlCommand cmd = new SqlCommand(String.Format("execute [dbo].[IngresarPaciente] @identidadPa = '{0}', @NombrePa = '{1}', @EmailPa = '{2}', @TelefonoPa = '{3}', @SexoPa ='{4}', @FechaNacPa='{5}', @EstadoPa = 1", identidad, nombre, email, telefono, sexo, fechanac.ToString("MM-dd-yyyy hh:m:s")), cn);
+                SqlCommand cmd = new SqlCommand(String.Format("execute [dbo].[IngresarPaciente] @identidadPa = '{0}', @NombrePa = '{1}', @EmailPa = '{2}', @TelefonoPa = '{3}', @SexoPa ='{4}', @FechaNacPa='{5}', @EstadoPa = 1", identidad, nombre, email, telefono, sexo, fechanac.ToString("dd-MM-yyyy hh:m:s")), cn);
                 cmd.ExecuteNonQuery();
                 MessageBox.Show("Se Inserto Correctamente", "Mensaje", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
@@ -268,7 +268,7 @@ namespace Clases
             {
                 descrip = "Ha Eliminado Un Registro";
             }
-            SqlCommand cmd = new SqlCommand(String.Format("execute [dbo].[IngresarBitacora] @UserName = '{0}',  @Descripcion = '{1}', @Fecha = '{2}'", usuario,descrip,DateTime.Now.ToString("MM-dd-yyyy hh:m:s")), cn);
+            SqlCommand cmd = new SqlCommand(String.Format("execute [dbo].[IngresarBitacora] @UserName = '{0}',  @Descripcion = '{1}', @Fecha = '{2}'", usuario,descrip,DateTime.Now.ToString("dd-MM-yyyy hh:m:s")), cn);
             cmd.ExecuteNonQuery();
             
         }
@@ -341,7 +341,7 @@ namespace Clases
 
         public void IngresarCai(String num, String rangoa,String rangof, DateTime fechalim)
         {
-            SqlCommand cmd = new SqlCommand(String.Format("execute [dbo].[IngresarCai] @CaiNum = '{0}',@RangoInicial = '{1}',@RangoFinal = '{2}',@FechaLimite = '{3}',@EstadoCai=1", num,rangoa,rangof,fechalim.ToString("MM-dd-yyyy hh:m:s")), cn);
+            SqlCommand cmd = new SqlCommand(String.Format("execute [dbo].[IngresarCai] @CaiNum = '{0}',@RangoInicial = '{1}',@RangoFinal = '{2}',@FechaLimite = '{3}',@EstadoCai=1", num,rangoa,rangof,fechalim.ToString("dd-MM-yyyy hh:m:s")), cn);
             cmd.ExecuteNonQuery();
             MessageBox.Show("Se Inserto Correctamente", "Mensaje", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }

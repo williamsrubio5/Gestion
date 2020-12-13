@@ -78,7 +78,7 @@
             // txtrangof
             // 
             this.txtrangof.Location = new System.Drawing.Point(186, 238);
-            this.txtrangof.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtrangof.Margin = new System.Windows.Forms.Padding(2);
             this.txtrangof.MaxLength = 50;
             this.txtrangof.Name = "txtrangof";
             this.txtrangof.Size = new System.Drawing.Size(210, 20);
@@ -161,7 +161,7 @@
             // txtusuario
             // 
             this.txtusuario.Location = new System.Drawing.Point(186, 121);
-            this.txtusuario.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtusuario.Margin = new System.Windows.Forms.Padding(2);
             this.txtusuario.MaxLength = 50;
             this.txtusuario.Name = "txtusuario";
             this.txtusuario.Size = new System.Drawing.Size(210, 20);
@@ -177,7 +177,7 @@
             "Cajero",
             "Doctor"});
             this.comboBox2.Location = new System.Drawing.Point(186, 238);
-            this.comboBox2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.comboBox2.Margin = new System.Windows.Forms.Padding(2);
             this.comboBox2.Name = "comboBox2";
             this.comboBox2.Size = new System.Drawing.Size(92, 21);
             this.comboBox2.TabIndex = 163;
@@ -242,7 +242,7 @@
             // fechanac
             // 
             this.fechanac.Location = new System.Drawing.Point(423, 183);
-            this.fechanac.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.fechanac.Margin = new System.Windows.Forms.Padding(2);
             this.fechanac.Name = "fechanac";
             this.fechanac.Size = new System.Drawing.Size(151, 20);
             this.fechanac.TabIndex = 148;
@@ -256,7 +256,7 @@
             "Femenino",
             "Masculino"});
             this.cbsexo.Location = new System.Drawing.Point(423, 120);
-            this.cbsexo.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.cbsexo.Margin = new System.Windows.Forms.Padding(2);
             this.cbsexo.Name = "cbsexo";
             this.cbsexo.Size = new System.Drawing.Size(92, 21);
             this.cbsexo.TabIndex = 147;
@@ -278,7 +278,7 @@
             // txtclinica
             // 
             this.txtclinica.Location = new System.Drawing.Point(186, 337);
-            this.txtclinica.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtclinica.Margin = new System.Windows.Forms.Padding(2);
             this.txtclinica.MaxLength = 50;
             this.txtclinica.Name = "txtclinica";
             this.txtclinica.Size = new System.Drawing.Size(210, 20);
@@ -301,7 +301,7 @@
             // txttelefono
             // 
             this.txttelefono.Location = new System.Drawing.Point(186, 238);
-            this.txttelefono.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txttelefono.Margin = new System.Windows.Forms.Padding(2);
             this.txttelefono.MaxLength = 8;
             this.txttelefono.Name = "txttelefono";
             this.txttelefono.Size = new System.Drawing.Size(210, 20);
@@ -324,7 +324,7 @@
             // txtemail
             // 
             this.txtemail.Location = new System.Drawing.Point(186, 289);
-            this.txtemail.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtemail.Margin = new System.Windows.Forms.Padding(2);
             this.txtemail.MaxLength = 50;
             this.txtemail.Name = "txtemail";
             this.txtemail.Size = new System.Drawing.Size(210, 20);
@@ -338,7 +338,7 @@
             this.button5.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button5.ForeColor = System.Drawing.Color.White;
             this.button5.Location = new System.Drawing.Point(541, 28);
-            this.button5.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button5.Margin = new System.Windows.Forms.Padding(2);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(44, 34);
             this.button5.TabIndex = 150;
@@ -351,7 +351,7 @@
             // 
             this.btnagregar.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnagregar.Location = new System.Drawing.Point(236, 382);
-            this.btnagregar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnagregar.Margin = new System.Windows.Forms.Padding(2);
             this.btnagregar.Name = "btnagregar";
             this.btnagregar.Size = new System.Drawing.Size(100, 46);
             this.btnagregar.TabIndex = 149;
@@ -387,7 +387,7 @@
             // txtnombre
             // 
             this.txtnombre.Location = new System.Drawing.Point(186, 184);
-            this.txtnombre.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtnombre.Margin = new System.Windows.Forms.Padding(2);
             this.txtnombre.MaxLength = 50;
             this.txtnombre.Name = "txtnombre";
             this.txtnombre.Size = new System.Drawing.Size(210, 20);
@@ -411,7 +411,7 @@
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
             this.pictureBox1.Location = new System.Drawing.Point(16, 15);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(127, 61);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -427,6 +427,7 @@
             this.txtidentidad.Size = new System.Drawing.Size(210, 20);
             this.txtidentidad.TabIndex = 173;
             this.txtidentidad.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txtidentidad.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtidentidad_KeyPress);
             // 
             // Editar_Doctor
             // 
@@ -466,7 +467,7 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.pictureBox1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Editar_Doctor";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Editar_Doctor";
