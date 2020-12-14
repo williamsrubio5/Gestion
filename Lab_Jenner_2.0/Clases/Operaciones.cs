@@ -291,7 +291,7 @@ namespace Clases
             return tabla;
         }
 
-        public void IngresarExamen(String nombre, String rango, decimal precio)
+        public void IngresarExamen(String nombre, String rango,decimal precio)
         {
             Operaciones proc = new Operaciones();
             int Consultar = proc.Verificar_ExistenciaE(nombre);
@@ -348,7 +348,7 @@ namespace Clases
 
         public void EditarCai(String cainum, String rangoI,String rangoF,DateTime fecha)
         {
-            SqlCommand cmd = new SqlCommand(string.Format("execute [dbo].[ActualizarCai]  @CaiNum = '{0}', @RangoInicial = '{1}', @RangoFinal = '{2}', @FechaLimite = '{3}', @EstadoCai = 1'", cainum,rangoI,rangoF,fecha.ToString("MM-dd-yyyy hh:m:s")), cn);
+            SqlCommand cmd = new SqlCommand(string.Format("execute [dbo].[ActualizarCai]  @CaiNum = '{0}', @RangoInicial = '{1}', @RangoFinal = '{2}', @FechaLimite = '{3}', @EstadoCai = 1", cainum,rangoI,rangoF,fecha.ToString("dd-MM-yyyy hh:m:s")), cn);
             cmd.ExecuteNonQuery();
             MessageBox.Show("Se Edito Correctamente", "Mensaje", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
