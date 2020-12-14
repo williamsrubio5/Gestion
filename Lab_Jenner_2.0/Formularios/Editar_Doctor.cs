@@ -249,8 +249,14 @@ namespace Formularios
 
             if (Explorar_Tablas.metodo == 1)
             {
-                op.EditarDoctor(txtidentidad.Text, txtnombre.Text, int.Parse(txttelefono.Text), txtemail.Text, txtclinica.Text);
-
+                if (txtidentidad.Text == "" || txtemail.Text == "" || txttelefono.Text == "" || txtnombre.Text == "" || txtclinica.Text == "")
+                {
+                    MessageBox.Show("No puede dejar campos vacios", "Error", MessageBoxButtons.OK, /*Tipo de imagen que tendra el mensaje*/MessageBoxIcon.Error);
+                }
+                else
+                {
+                    op.EditarDoctor(txtidentidad.Text, txtnombre.Text, int.Parse(txttelefono.Text), txtemail.Text, txtclinica.Text);
+                }
             }
             else if (Explorar_Tablas.metodo == 2)
             {
@@ -263,7 +269,15 @@ namespace Formularios
                 {
                     sex = 0;
                 }
-                op.EditarPaciente(txtidentidad.Text, txtnombre.Text, txtemail.Text, int.Parse(txttelefono.Text), sex, fechanac.Value.Date);
+
+                if (txtidentidad.Text == "" || txtnombre.Text == "" || txtemail.Text == "" || txttelefono.Text == "")
+                {
+                    MessageBox.Show("No puede dejar campos vacios", "Error", MessageBoxButtons.OK, /*Tipo de imagen que tendra el mensaje*/MessageBoxIcon.Error);
+                }
+                else
+                {
+                    op.EditarPaciente(txtidentidad.Text, txtnombre.Text, txtemail.Text, int.Parse(txttelefono.Text), sex, fechanac.Value.Date);
+                }
             }
             else if (Explorar_Tablas.metodo == 3)
             {
@@ -281,15 +295,37 @@ namespace Formularios
                     rol = 3;
                 }
 
-                op.EditarUsuario(txtusuario.Text, txtnombre.Text, rol, txtemail.Text);
+                if (txtusuario.Text == "" || txtnombre.Text == "" || txtemail.Text == "")
+                {
+                    MessageBox.Show("No puede dejar campos vacios", "Error", MessageBoxButtons.OK, /*Tipo de imagen que tendra el mensaje*/MessageBoxIcon.Error);
+                }
+                else
+                {
+                    op.EditarUsuario(txtusuario.Text, txtnombre.Text, rol, txtemail.Text);
+
+                }
             }
             else if (Explorar_Tablas.metodo == 5)
             {
-                op.EditarExamen(txtusuario.Text, txtnombre.Text, decimal.Parse(txttelefono.Text),Convert.ToInt32( Explorar_Tablas.ide));
+                if (txtusuario.Text == "" || txtnombre.Text == "" || txttelefono.Text == "")
+                {
+                    MessageBox.Show("No puede dejar campos vacios", "Error", MessageBoxButtons.OK, /*Tipo de imagen que tendra el mensaje*/MessageBoxIcon.Error);
+                }
+                else
+                {
+                    op.EditarExamen(txtusuario.Text, txtnombre.Text, decimal.Parse(txttelefono.Text), Convert.ToInt32(Explorar_Tablas.ide));
+                }
             }
             else if (Explorar_Tablas.metodo == 6)
             {
-                op.EditarCai(txtusuario.Text, txtnombre.Text, txtrangof.Text, fechanac.Value.Date);
+                if (txtusuario.Text == "" || txtnombre.Text == "" || txtrangof.Text == "")
+                {
+                    MessageBox.Show("No puede dejar campos vacios", "Error", MessageBoxButtons.OK, /*Tipo de imagen que tendra el mensaje*/MessageBoxIcon.Error);
+                }
+                else
+                {
+                    op.EditarCai(txtusuario.Text, txtnombre.Text, txtrangof.Text, fechanac.Value.Date);
+                }
             }
             txtidentidad.Text = "";
             txtnombre.Text = "";
